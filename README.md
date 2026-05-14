@@ -4,16 +4,18 @@
 International Sales Manager transitioning into Data Analytics.
 Skilled in Python, SQL, Power BI, and eCommerce strategy.
 
-## 📁 Project: [Project 2 of Data Analysis]
-**Description:** This project is a Monthly Business Performance Report built for stakeholder decision-making. It analyzes last month's operational data to surface key insights across revenue, sales trends, and performance averages.
-The report answers critical business questions such as:
+## 📁 Project: Project 2 of Data Analysis
+**Description:** This project is an Exploratory Data Analysis (EDA) of an E-Commerce Orders Dataset, conducted as part of the Decode Lab Data Analytics program. The analysis covers 1,200 orders recorded between January 2023 and June 2025, built entirely in Microsoft Power BI.
+The report is designed to give stakeholders a clear, data-driven picture of business performance by answering:
 
-📈 How did revenue perform compared to the previous month?
-🔁 What trends are emerging in sales, orders, or customer behavior?
-💰 What is the average order value, revenue per category, or customer spend?
-🚦 Which areas are underperforming and need immediate attention?
+💰 Revenue breakdown: Total revenue of $1,264,761.96 analyzed by product category, with Chairs and Printers leading sales
+📦 Order status overview: A ~19.25% cancellation rate flagged as a critical area requiring attention
+📈 Monthly trend analysis: Revenue stability tracked across 2.5 years with no major seasonal spikes
+🛒 Customer behavior: Average order value of $1,053.97, with 74.25% of customers using coupon codes
+📣 Marketing channel performance: Instagram identified as the top-performing referral source
+🔍 Outlier detection: High-value bulk orders (above $2,800) and low-value minimal purchases (below $50) identified via scatter plot analysis
 
-Built using Python, Pandas, and Power BI, this pipeline cleans raw data, runs statistical analysis, and outputs a stakeholder-ready dashboard and summary report — turning raw numbers into clear business decisions..
+Data was cleaned and transformed using Power Query, statistical measures were calculated using DAX, and insights were presented through interactive dashboards including line charts, bar charts, donut charts, and scatter plots.
 
 ## 🚀 How to Run
 ```bash
