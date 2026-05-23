@@ -62,7 +62,7 @@ distributions, and outliers to support business decision-making.
 
 ## 📊 Dashboard Preview
 
-![Dashboard](Dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/Nimra-Youns/Project-2-EDA-PowerBI-DecodeLabs-Internship/main/Dashboard.png)
 
 ---
 
