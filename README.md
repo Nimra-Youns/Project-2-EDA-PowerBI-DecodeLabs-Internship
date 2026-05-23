@@ -1,46 +1,89 @@
-# Nimra_Youns# AI Sales & Data Analytics Projects
+# 📊 Project 2: Exploratory Data Analysis — E-Commerce Orders Dataset
 
-## 👩‍💻 About Me
-International Sales Manager transitioning into Data Analytics.
-Skilled in Python, SQL, Power BI, and eCommerce strategy.
+**Tool:** Microsoft Power BI  
+**Submitted by:** Nimra Youns  
+**Internship:** Decode Lab  
+**Date:** 14 May 2025  
 
-## 📁 Project: Project 2 of Data Analysis
-**Description:** This project is an Exploratory Data Analysis (EDA) of an E-Commerce Orders Dataset, conducted as part of the Decode Lab Data Analytics program. The analysis covers 1,200 orders recorded between January 2023 and June 2025, built entirely in Microsoft Power BI.
-The report is designed to give stakeholders a clear, data-driven picture of business performance by answering:
+---
 
-💰 Revenue breakdown: Total revenue of $1,264,761.96 analyzed by product category, with Chairs and Printers leading sales
-📦 Order status overview: A ~19.25% cancellation rate flagged as a critical area requiring attention
-📈 Monthly trend analysis: Revenue stability tracked across 2.5 years with no major seasonal spikes
-🛒 Customer behavior: Average order value of $1,053.97, with 74.25% of customers using coupon codes
-📣 Marketing channel performance: Instagram identified as the top-performing referral source
-🔍 Outlier detection: High-value bulk orders (above $2,800) and low-value minimal purchases (below $50) identified via scatter plot analysis
+## 📌 Overview
 
-Data was cleaned and transformed using Power Query, statistical measures were calculated using DAX, and insights were presented through interactive dashboards including line charts, bar charts, donut charts, and scatter plots.
+Performed EDA on a dataset of **1,200 e-commerce orders** recorded between
+January 2023 and June 2025. The goal was to uncover patterns, trends,
+distributions, and outliers to support business decision-making.
 
-## 🚀 How to Run
-```bash
-Step 1: Clone or download this repository
-        github.com/Nimra_Youns/Project-2-of-Data-Analysis
+---
 
-Step 2: Open Power BI Desktop on your computer
+## 📁 Dataset Summary
 
-Step 3: Click File → Open Report
+| Detail | Value |
+|---|---|
+| Total Records | 1,200 Orders |
+| Total Columns | 14 |
+| Date Range | Jan 2023 – Jun 2025 |
+| Products | Monitor, Phone, Tablet, Chair, Printer, Laptop, Desk |
+| Order Statuses | Shipped, Cancelled, Returned, Delivered, Pending |
+| Payment Methods | Debit Card, Online, Credit Card, Gift Card, Cash |
+| Referral Sources | Instagram, Referral, Email, Facebook, Google |
 
-Step 4: Select the file:
-        'Project 2 of Data Analysis.pbix'
+---
 
-Step 5: If prompted, update the data source path
-        Go to: Home → Transform Data → Data Source Settings
-        Point it to your local data file
+## 📈 Descriptive Statistics
 
-Step 6: Click Refresh to load the latest data
+| Metric | Value |
+|---|---|
+| Total Revenue | $1,264,761.96 |
+| Total Orders | 1,200 |
+| Mean Order Value | $1,053.97 |
+| Median Order Value | $823.62 |
+| Max Order Value | $3,456.40 |
+| Min Order Value | $11.39 |
+| Cancellation Rate | ~19.25% |
+| Coupon Usage Rate | ~74.25% |
 
-Step 7: Navigate through report pages to explore:
-        - Revenue Summary
-        - Monthly Trends
-        - Averages & KPIs
-        - Stakeholder Overview
-```
+> The mean ($1,053.97) is significantly higher than the median ($823.62),
+> indicating a **right-skewed distribution** driven by a small number of
+> high-value orders.
 
-## 📬 Connect
-[LinkedIn](https://www.linkedin.com/in/nimra-youns-53a679238) | [Email](nimrayouns@gmail.com)
+---
+
+## 💡 Key Insights
+
+- **Chair and Printer** generated the highest total revenue across all categories
+- **Cancellation rate of ~19.25%** is a critical business risk — nearly 1 in 5 orders does not complete
+- **Instagram** is the highest-performing referral channel in both order volume and revenue
+- **74.25% of orders used a coupon**, highlighting strong price sensitivity among customers
+- **SAVE10 and FREESHIP** are the most used coupons; WINTER15 has the lowest adoption
+- Monthly revenue was **stable with no strong seasonal peaks**, suggesting a consistent customer base
+- **Outliers detected**: High-value orders above $2,800 (bulk purchases) and low-value orders below $50 (minimal single-item purchases)
+
+---
+
+## 📊 Dashboard Preview
+
+![Dashboard](Dashboard.png)
+
+---
+
+## 🛠️ Tools & Methodology
+
+- **Power BI Desktop** — end-to-end analysis and dashboarding
+- **Power Query Editor** — data type validation, null handling, derived columns
+- **DAX Measures** — SUM, AVERAGE, MEDIAN, COUNT, DIVIDE
+- **Visualizations** — Card visuals, Line Chart, Bar Charts, Donut Chart, Scatter Chart, Slicers
+- **Outlier Detection** — Scatter plot (Unit Price vs Total Price)
+
+---
+
+## 📂 Files in This Repository
+
+| File | Description |
+|---|---|
+| `Dataset for Data Analytics.xlsx` | Raw e-commerce orders dataset |
+| `EDA_Report_Nimra_Youns.docx` | Full written EDA report |
+| `dashboard.png` | Power BI dashboard screenshot |
+
+---
+
+*Completed as part of the DecodeLabs Data Analytics Internship — Project 2*
